@@ -1,10 +1,8 @@
-import './App.css';
+import TimeLine from './components/Timeline';
 
 function App() {
   return (
-    <div className="container common">
-      <header>I&apos;m header</header>
-    </div>
+    <TimeLine />
   );
 }
 
