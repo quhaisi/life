@@ -7,10 +7,16 @@
 
 import './index.styl';
 
+const Point = () => (
+  <span className="timeline-point" />
+);
+
 function TimeLine() {
   return (
-    <div>
-      im a line
+    <div className="qu-timeline-container">
+      <div className="qu-timeline">
+        <Point />
+      </div>
     </div>
   );
 }
