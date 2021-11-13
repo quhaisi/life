@@ -28,6 +28,14 @@ module.exports = {
         exclude: /node_modules/,
         use: ['style-loader', 'css-loader', 'stylus-loader'],
       },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+          },
+        ],
+      },
     ],
   },
   output: {

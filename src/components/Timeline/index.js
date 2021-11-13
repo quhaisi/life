@@ -6,10 +6,7 @@
  */
 
 import './index.styl';
-
-const Point = () => (
-  <span className="timeline-point" />
-);
+import Point from './Point';
 
 function TimeLine() {
   return (
