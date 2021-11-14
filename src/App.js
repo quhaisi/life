@@ -1,8 +1,12 @@
 import TimeLine from './components/Timeline';
 
+import './App.styl';
+
 function App() {
   return (
-    <TimeLine />
+    <div className="qu-app-container">
+      <TimeLine />
+    </div>
   );
 }
 

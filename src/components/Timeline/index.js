@@ -6,14 +6,15 @@
  */
 
 import './index.styl';
-import Point from './Point';
+// import Point from './Point';
+import PreviewCard from '../PreviewCard';
 
 function TimeLine() {
   return (
     <div className="qu-timeline-container">
-      <div className="qu-timeline">
-        <Point />
-      </div>
+      <PreviewCard title="test" />
+      <PreviewCard title="test" />
+      <PreviewCard title="test" />
     </div>
   );
 }
