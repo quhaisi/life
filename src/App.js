@@ -4,17 +4,17 @@ import {
   Route,
 } from 'react-router-dom';
 
-import TimeLine from './components/Timeline';
-import Add from './components/Add';
+import Home from './pages/Home';
+import Add from './pages/Add';
 
 import './App.styl';
 
 function App() {
   return (
-    <div className="qu-app-container">
+    <div className="life-app-container">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<TimeLine />} />
+          <Route path="/" element={<Home />} />
           <Route path="/add" element={<Add />} />
         </Routes>
       </BrowserRouter>

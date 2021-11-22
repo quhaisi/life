@@ -11,7 +11,7 @@ import PreviewCard from '../PreviewCard';
 
 function TimeLine() {
   return (
-    <div className="qu-timeline-container">
+    <div className="life-timeline-container">
       <PreviewCard title="test" />
       <PreviewCard title="test" />
       <PreviewCard title="test" />

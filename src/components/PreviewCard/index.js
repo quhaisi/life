@@ -10,7 +10,7 @@ import './index.styl';
 function PreviewCard(props) {
   const { title, date } = props;
   return (
-    <div className="qu-previewcard-container">
+    <div className="life-previewcard-container">
       <span>{ title }</span>
       <span>{ date }</span>
       <img src={miku} alt="" />
