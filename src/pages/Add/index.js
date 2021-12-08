@@ -2,7 +2,7 @@ import LifeInput from '../../components/Input';
 import { useState } from "react";
 // import nput from '../../components/Input/useInput'
 
-import axios from 'axios';
+import axios from "../../utils/axios";
 
 function Add() {
   // const [title, useTitle] = nput()
